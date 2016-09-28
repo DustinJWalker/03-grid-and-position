@@ -11,6 +11,7 @@ body {
   background: #64b5f6;
   color: white;
 
+
 }
 
 .auth__name  {
@@ -24,7 +25,7 @@ body {
     text-align: right;
     text-decoration: none;
     color: white;
-    display: inline-block;
+    display: block;
 }
 
 .nav-right  {
@@ -36,15 +37,27 @@ body {
   max-width: 65rem;
   /*center if there is width left*/
   margin: 0 auto;
+
 }
 
 .post__title {
-
+  text-align: center;
   background: #ffd740;
 }
 .post  {
   float: left;
-  width: calc(100% / 3 - 1rem - 1rem);
+  text-align: center;
   margin: 1rem;
 
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.week  {
+  background: #64b5f6;
+  color: white;
+  text-align: center;
 }
