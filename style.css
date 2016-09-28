@@ -10,6 +10,7 @@ body {
 .nav__bar  {
   background: #64b5f6;
   color: white;
+  margin: 0 1rem;
 
 
 }
@@ -37,26 +38,37 @@ body {
   max-width: 65rem;
   /*center if there is width left*/
   margin: 0 auto;
+  width: calc(100% / 2 - 10rem - 10rem);
 
 }
 
 .post__title {
   text-align: center;
   background: #ffd740;
+  padding-top: 5rem;
+  padding-bottom: 5rem:
 }
 .post  {
   float: left;
   text-align: center;
-  margin: 1rem;
+
 
 }
 
 img {
   max-width: 100%;
   border-radius: 50%;
+  position: absolute;
+  top: 19.5%;
+  left: 34%;
 }
 
 .week  {
+  position: absolute;
+  top: 17%;
+  left: 45%;
+  width: 10%;
+  margin: auto;
   background: #64b5f6;
   color: white;
   text-align: center;
