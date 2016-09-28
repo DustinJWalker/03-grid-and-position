@@ -1,12 +1,50 @@
 body {
-  box-sizing: border-box;
   margin: 0;
-
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+*  {
+  box-sizing: border-box;
+}
+
+
+.nav__bar  {
+  background: #64b5f6;
+  color: white;
+
 }
 
 .auth__name  {
+  text-align: left;
+
+  display: block;
+}
+
+
+.links  {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.nav-right  {
+  text-align: right;
+}
+
+.container {
+  /*grow up to 65rem*/
+  max-width: 65rem;
+  /*center if there is width left*/
+  margin: 0 auto;
+}
+
+.post__title {
+
+  background: #ffd740;
+}
+.post  {
+  float: left;
+  width: calc(100% / 3 - 1rem - 1rem);
+  margin: 1rem;
 
 }
