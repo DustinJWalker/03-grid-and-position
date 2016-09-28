@@ -2,34 +2,27 @@ body {
   margin: 0;
 }
 
-*  {
+* {
   box-sizing: border-box;
 }
 
-
-.nav__bar  {
+.nav__bar {
   background: #64b5f6;
   color: white;
-  margin: 0 1rem;
-
-
+  overflow: auto;
 }
 
-.auth__name  {
+.auth__name {
   text-align: left;
-
-  display: block;
 }
 
-
-.links  {
-    text-align: right;
-    text-decoration: none;
-    color: white;
-    display: block;
+.links {
+  text-align: right;
+  text-decoration: none;
+  color: white;
 }
 
-.nav-right  {
+.nav-right {
   text-align: right;
 }
 
@@ -37,9 +30,12 @@ body {
   /*grow up to 65rem*/
   max-width: 65rem;
   /*center if there is width left*/
-  margin: 0 auto;
-  width: calc(100% / 2 - 10rem - 10rem);
+  margin: auto;
+}
 
+.card {
+  width: calc(100% / 2 - 1rem - 10rem);
+  box-shadow: .2rem .2rem .4rem;
 }
 
 .post__title {
@@ -48,24 +44,22 @@ body {
   padding-top: 5rem;
   padding-bottom: 5rem:
 }
-.post  {
-  float: left;
+
+.post {
   text-align: center;
-
-
 }
 
 img {
   max-width: 100%;
   border-radius: 50%;
   position: absolute;
-  top: 19.5%;
-  left: 34%;
+  top: 14.5%;
+  left: 28.5%;
 }
 
-.week  {
+.week {
   position: absolute;
-  top: 17%;
+  top: 12.5%;
   left: 45%;
   width: 10%;
   margin: auto;
