@@ -15,7 +15,7 @@ body {
 .auth__name {
   text-align: left;
   margin-left: 2rem;
-  display: inline-block;
+
 }
 
 .links {
@@ -23,28 +23,37 @@ body {
   text-align: right;
   text-decoration: none;
   color: white;
-  display: inline-block;
+
+
 
 }
 
 .nav-right {
   text-align: right;
+
 }
 
 .container {
   /*grow up to 65rem*/
-  max-width: 65rem;
+  max-width: 70rem;
   /*center if there is width left*/
   margin: auto;
-  display: inline-grid;
-
 }
 
-.card {
+.card_left {
   width: calc(100% / 2 - 1rem - 10rem);
   box-shadow: .2rem .2rem .4rem;
+  float: left;
+
 
 }
+.card_right {
+  width: calc(100% / 2 - 1rem - 10rem);
+  box-shadow: .2rem .2rem .4rem;
+  float: right;
+
+}
+
 
 
 .post__title {
@@ -62,12 +71,14 @@ img {
   max-width: 100%;
   border-radius: 50%;
   position: absolute;
+  z-index: auto;
   top: 14.5%;
   left: 6%;
 }
 
 .week {
   position: absolute;
+  z-index: auto;
   top: 12.5%;
   left: 17%;
   width: 10%;
