@@ -14,12 +14,17 @@ body {
 
 .auth__name {
   text-align: left;
+  margin-left: 2rem;
+  display: inline-block;
 }
 
 .links {
+  margin-right: 4rem;
   text-align: right;
   text-decoration: none;
   color: white;
+  display: inline-block;
+
 }
 
 .nav-right {
@@ -31,12 +36,16 @@ body {
   max-width: 65rem;
   /*center if there is width left*/
   margin: auto;
+  display: inline-grid;
+
 }
 
 .card {
   width: calc(100% / 2 - 1rem - 10rem);
   box-shadow: .2rem .2rem .4rem;
+
 }
+
 
 .post__title {
   text-align: center;
@@ -54,13 +63,13 @@ img {
   border-radius: 50%;
   position: absolute;
   top: 14.5%;
-  left: 28.5%;
+  left: 6%;
 }
 
 .week {
   position: absolute;
   top: 12.5%;
-  left: 45%;
+  left: 17%;
   width: 10%;
   margin: auto;
   background: #64b5f6;
