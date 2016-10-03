@@ -10,6 +10,7 @@ body {
   background: #64b5f6;
   color: white;
   overflow: auto;
+
 }
 
 .auth__name {
@@ -19,9 +20,9 @@ body {
 
 .links {
   margin-right: 3rem;
-  text-align: right;
   text-decoration: none;
   color: white;
+  float: right;
 
 }
 
@@ -33,19 +34,17 @@ body {
   /*grow up to 65rem*/
   max-width: 70rem;
   /*center if there is width left*/
-  margin: auto;
+  /*margin: auto;*/
+  margin: 0 4rem  0  8rem;
 }
 
-.card_left {
-  width: calc(100% / 2 - 1rem - 10rem);
+.card {
+  /*width: calc(100% / 2 - 1rem - 10rem);*/
   box-shadow: .2rem .2rem .4rem;
   float: left;
-}
-
-.card_right {
-  width: calc(100% / 2 - 1rem - 10rem);
-  box-shadow: .2rem .2rem .4rem;
-  float: right;
+  max-width: 25rem;
+  position: relative;
+  margin: 3rem;
 }
 
 .post__title {
@@ -64,79 +63,18 @@ body {
   border-radius: 50%;
   position: absolute;
   z-index: auto;
-  top: 14.5%;
-  left: 3%;
+  /*top: 14.5%;
+  left: 3%;*/
+  position: absolute;
 }
 
-.img_2 {
-  max-width: 100%;
-  border-radius: 50%;
-  position: absolute;
-  z-index: auto;
-  top: 14.5%;
-  left: 60%;
-}
 
-.img_3 {
-  max-width: 100%;
-  border-radius: 50%;
+.week {
   position: absolute;
   z-index: auto;
-  top: 58%;
-  left: 3%;
-}
-
-.img_4 {
-  max-width: 100%;
-  border-radius: 50%;
-  position: absolute;
-  z-index: auto;
-  top: 58%;
-  left: 60%;
-}
-
-.week_1 {
-  position: absolute;
-  z-index: auto;
-  top: 12.5%;
+  /*top: 12.5%;
   left: 17%;
-  width: 10%;
-  margin: auto;
-  background: #64b5f6;
-  color: white;
-  text-align: center;
-}
-
-.week_2 {
-  position: absolute;
-  z-index: auto;
-  top: 12.5%;
-  left: 75%;
-  width: 10%;
-  margin: auto;
-  background: #64b5f6;
-  color: white;
-  text-align: center;
-}
-
-.week_3 {
-  position: absolute;
-  z-index: auto;
-  top: 56%;
-  left: 17%;
-  width: 10%;
-  margin: auto;
-  background: #64b5f6;
-  color: white;
-  text-align: center;
-}
-
-.week_4 {
-  position: absolute;
-  z-index: auto;
-  top: 56%;
-  left: 75%;
-  width: 10%;
+  width: 10%;*/
   margin: auto;
   background: #64b5f6;
   color: white;
