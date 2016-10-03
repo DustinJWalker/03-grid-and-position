@@ -10,7 +10,9 @@ body {
   background: #64b5f6;
   color: white;
   overflow: auto;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .auth__name {
@@ -20,9 +22,12 @@ body {
 
 .links {
   margin-right: 3rem;
+
   text-decoration: none;
   color: white;
-  float: right;
+  /*float: right;*/
+  align-items: center;
+
 
 }
 
