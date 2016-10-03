@@ -66,17 +66,21 @@ body {
   /*top: 14.5%;
   left: 3%;*/
   position: absolute;
+  margin-left: -3rem;
 }
 
 
 .week {
-  position: absolute;
+  position: relative;
   z-index: auto;
   /*top: 12.5%;
   left: 17%;
   width: 10%;*/
-  margin: auto;
+  width: 25%;
+  margin-left: 9rem;
   background: #64b5f6;
   color: white;
   text-align: center;
+  margin-top: -1rem;
+
 }
