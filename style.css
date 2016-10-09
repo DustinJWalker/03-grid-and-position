@@ -66,18 +66,19 @@ body {
 
 .img {
   max-width: 100%;
+  margin-top: 0.3rem;
   border-radius: 50%;
   position: absolute;
   z-index: auto;
   /*top: 14.5%;
   left: 3%;*/
-  position: absolute;
+  /*position: absolute;*/
   margin-left: -3rem;
 }
 
 
 .week {
-  position: relative;
+  position: absolute;
   z-index: auto;
   /*top: 12.5%;
   left: 17%;
