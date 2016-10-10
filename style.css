@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 2rem 0 2rem;
+  /*margin: 0 2rem 0 2rem;*/
 }
 
 .auth__name {
@@ -42,6 +42,8 @@ body {
   /*center if there is width left*/
   /*margin: auto;*/
   margin: 0 4rem  0  8rem;
+  display: flex;
+  position: relative;
 }
 
 .card {
@@ -78,7 +80,7 @@ body {
 
 
 .week {
-  position: absolute;
+  position: relative;
   z-index: auto;
   /*top: 12.5%;
   left: 17%;
