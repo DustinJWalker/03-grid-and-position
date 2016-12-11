@@ -78,7 +78,6 @@ body {
   left: 0;
 }
 
-
 .week {
   position: absolute;
   top: 0;
@@ -88,4 +87,6 @@ body {
   background: #64b5f6;
   color: white;
   transform: translate(-50%, -50%);
+}
+
 }
