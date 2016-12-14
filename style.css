@@ -40,8 +40,7 @@ body {
   /*grow up to 65rem*/
   max-width: 70rem;
   /*center if there is width left*/
-  /*margin: auto;*/
-  margin: 0 4rem  0  8rem;
+  margin: auto;
   display: flex;
   position: relative;
 }
